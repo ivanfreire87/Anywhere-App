@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta http-equiv="Page-Enter" content="blendTrans(Duration=.01)" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/news.css" />
+		<link rel="stylesheet" type="text/css" href="css/dinner.css" />
+		<link rel="stylesheet" type="text/css" href="css/calendar.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.3.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/webix.css" media="screen" />
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.3.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src='js/MobileServices.Web-1.1.2.min.js'></script>
+		<script type="text/javascript" src="js/webix.js"></script>
+		<script type="text/javascript" src="js/highcharts.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+
+		<title>Anywhere</title>
+
+
+	</head>
+	<body>
+	
+		<div class="container app">
+			<div id="deviceready" class="blink">
+				<p class="event listening">Verificando a ligação à internet</p>
+				<p class="event receivedLigado">Ligado à internet </p>
+				<p class="event receivedDesligado">Sem ligação à internet</p>
+			</div>
+		</div>	
+		
+ 		<div id="header_container">
+ 			<div data-role="header" data-position="fixed" data-tap-toggle="false">
+				<div data-role="navbar" >
+					<ul>
+						<li id="indexTitle">
+							<a>
+								<span class="anywhereTitle" >ANYWHERE</span>
+							</a> 
+						</li>
+					</ul>					
+				</div>
+			</div>
+		</div>	
+
+		<!--  3 tabs de menu -->
+		<div id="footer_container">
+			<div data-role="footer" data-position="fixed" data-tap-toggle="false">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a href="news.html" id="newsTab"  data-transition="none" class="ui-btn ui-btn-inline ui-btn-up-a" data-icon="custom">
+								News
+							</a>
+						</li>
+						<li>
+							<a href="dinner.html" id="dinnerTab"  data-transition="none" class="ui-btn ui-btn-inline ui-btn-up-a" data-icon="custom">
+								Dinner Card
+							</a>
+						</li>
+						<li>
+							<a href="calendar.html" id="calendarTab" data-transition="none" class="ui-btn ui-btn-inline ui-btn-up-a" data-icon="custom">
+								My Calendar
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+</body>
+</html>
